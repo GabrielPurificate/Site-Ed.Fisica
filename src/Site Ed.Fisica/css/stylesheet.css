@@ -7,22 +7,23 @@
     padding: 0;
 }
 
+body{
+    padding-bottom: 350px;
+    color: #212529;
+}
+
 /* Header */
 .header{
-    background-color: rgba(240, 157, 30, 0.7);
+    background-color: rgba(245, 132, 0, 1);
+    border-bottom: black;
 }
 
 .header h1.title{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-align: center;
-    color: green;
+    color: black;
     font-size: 50px;
-}
-
-/* NavBar */
-#navbar{
-    background-color: #F09D1E;
 }
 
 /* Seção 1 */
@@ -33,10 +34,10 @@
     max-height: 100vh;
     background-color: #D96966;
 }
-.foto1{
+
+#colbgsection1 img{
     width: 500px;
     height: 600px;
-    border: 5px, solid, #000000;
 }
 /* Seção 2 */
 .section2{
@@ -51,6 +52,7 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
-    max-height: 100vh;
+    max-height: 200vh;
     background-color: #66A7D9;
 }
+
