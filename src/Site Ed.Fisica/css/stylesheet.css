@@ -35,14 +35,6 @@
     font-size: 50px;
 }
 
-.navbar{
-    background-color: red;
-    position: sticky;
-}
-
-.navbar a.navbarlink{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
+.sr-only{
+    background-color: green;
 }
