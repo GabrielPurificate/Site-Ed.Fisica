@@ -11,7 +11,8 @@
     <link rel="shortcut icon" href="imagens/table-tennis.png" type="image/x-icon">
     <title>Tênis de Mesa</title>
 </head>
-<body>
+<body style="background-color:#212529;">
+
 
     <div class="header">
         <div class="container-fluid">
@@ -23,28 +24,29 @@
         </div>
     </div>
 
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img src="imagens/table-tennis.png" width="30" height="30" alt="Raquete de Tênis"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" id="btn1" href="#">Home1 <span class="sr-only"></span></a>
-            <a class="nav-item nav-link" id= "btn2" href="#">Home2</a>
-            <a class="nav-item nav-link" id= "btn3" href="#">Home3</a>
-          </div>
-        </div>
-      </nav>
+    
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="imagens/table-tennis.png" width="30" height="30" alt="Raquete de Tênis"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" id="btn1" href="#sectionmove1">Section 1 <span class="sr-only"></span></a>
+        <a class="nav-item nav-link" id= "btn2" href="#sectionmove2">Section 2</a>
+        <a class="nav-item nav-link" id= "btn3" href="#sectionmove3">Section 3</a>
+      </div>
+    </div>
+  </nav>
 
-    <section class="section1">
+    <section class="section1" id="sectionmove1">
 
-      <div class="container-fluid" id="containersection1">
-        <div class="row" id="rowsection1">
-          <div class="col bg" id="colbgsection1">
-            <img src="imagens/table-tennis.png" alt="Tênis de Mesa">
-          </div>
+      <div class="container-fluid">
+        <div class="row">
           <div class="col bg">
+            <img src="imagens/table-tennis.png" alt="Tênis de Mesa" width="500" height="500">
+          </div>
+          <div class="col bg">   
             <h2>Titulo 1</h2>
             <p>Texto 1</p>
           </div>
@@ -53,13 +55,10 @@
 
     </section>
 
-    <section class="section2">
-      <h2>Return to monke</h2>
-      <p>I've just returned to monke</p>
+    <section class="section2" id="sectionmove2">
     </section>
 
-    <section class="section3">
-
+    <section class="section3" id="sectionmove3">
     </section>
 
     <script src="js/jquery-3.2.1.min.js"></script>
