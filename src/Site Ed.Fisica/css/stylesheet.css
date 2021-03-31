@@ -32,20 +32,16 @@ body{
     width: 100%;
     min-height: 100vh;
     max-height: 100vh;
-    background-color: #D96966;
 }
 
 #colbgsection1 img{
     width: 500px;
     height: 600px;
 }
-/* Seção 2 */
-.section2{
-    position: relative;
     width: 100%;
     min-height: 100vh;
     max-height: 100vh;
-    background-color: #B67DF0;
+    background-color: black;
 }
 /* Seção 3 */
 .section3{
