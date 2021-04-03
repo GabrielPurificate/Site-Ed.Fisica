@@ -11,7 +11,51 @@ html{
     scroll-behavior: smooth;
 }
 
-/*.row{
+body {
+    font-size: 14px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    h2.text{
+        font-size: 1.1rem;
+    }
+    p.sbtext{
+        font-size: 0.8rem;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    h2.text{
+        font-size: 1.4rem;
+    }
+    p.sbtext{
+        font-size: 1.1rem;
+    }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    h2.text{
+        font-size: 1.7rem;
+    }
+    p.sbtext{
+        font-size: 1.4rem;
+    }
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+    h2.text{
+        font-size: 2rem;
+    }
+    p.sbtext{
+        font-size: 1.7rem;
+    }
+}
+
+.row{
     border-style: solid;
     border-radius: 3px;
     
@@ -20,7 +64,7 @@ html{
 #colbg{
     border-style: solid;
     border-radius: 3px;
-}*/
+}
 
 /* Header */
 .header{
@@ -38,29 +82,29 @@ html{
     font-size: 50px;
 }
 
-/* Posicionamento da imagem */
-/*.img-fluid{
-    padding-top: 100px;
-    padding-left: 25px;
-}*/
-
 /* Posicionamento do texto das seções */
 h2.text{
     padding-top: 15px;
     padding-left: 15px;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 700;
     font-style: bold;
     color: black;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: normal;
 }
 
 /* Posicionamento do sub texto das seções */
 p.sbtext{
     padding-left: 20px;
-    font-size: 25px;
+    font-size: 1.7rem;
     color: black;
+    white-space: normal;
     word-wrap: break-word;
+    word-break: break-all;
 }
+
 /* Posicionamento do texto dos footer */
 h2.text2{
     padding-top: 10px;
@@ -81,7 +125,7 @@ h2.text2{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    max-height: 100vh;
+    max-height: 100vh - 350px;
     background-color: rgb(57, 194, 187);
 }
 
@@ -90,7 +134,7 @@ h2.text2{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    max-height: 100vh;
+    max-height: 100vh - 350px;
     background-color: rgb(57, 194, 187);
 }
 
@@ -104,7 +148,8 @@ h2.text2{
 }
 
 /* Rodapé */
-.footer{    height: 350px;
+.footer{   
+     height: 350px;
 }
 
 #colfooter{
