@@ -11,7 +11,8 @@ html{
     scroll-behavior: smooth;
 }
 
-/*.row{
+/* 
+.row{
     border-style: solid;
     border-radius: 3px;
     
@@ -20,7 +21,8 @@ html{
 #colbg{
     border-style: solid;
     border-radius: 3px;
-}*/
+}
+*/
 
 /* Header */
 .header{
@@ -34,7 +36,7 @@ html{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: 50px;
 }
 
@@ -51,21 +53,24 @@ h2.text{
     font-size: 40px;
     font-weight: 700;
     font-style: bold;
+    color: black;
 }
 
 /* Posicionamento do sub texto das seções */
 p.sbtext{
     padding-left: 100px;
     font-size: 25px;
+    color: black;
     word-wrap: break-word;
 }
 /* Posicionamento do texto dos footer */
 h2.text2{
     padding-top: 10px;
     padding-left: 10px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 700;
     font-style: bold;
+    color: white;
 }
 
 /* Fonte da Navbar */
@@ -101,8 +106,30 @@ h2.text2{
 }
 
 /* Rodapé */
-.footer{
-    background-color: #212529;
+.footer{    height: 350px;
+}
+
+#colfooter{
+    text-align: center;
+    padding-top: 25px;
+}
+
+#rowfooter{
+    padding-top: 5px;
     color: white;
-    height: 350px;
+}
+
+#submitfooter{
+    margin-top: 20px;
+}
+
+#socialfooter{
+    margin-bottom: 20px;
+}
+
+#forminscricao{
+    color: white;
+    width: 70%;
+    text-align: center;
+    padding-left: 330px;
 }
