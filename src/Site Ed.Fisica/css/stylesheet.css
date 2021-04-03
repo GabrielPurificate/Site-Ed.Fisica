@@ -11,8 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* 
-.row{
+/*.row{
     border-style: solid;
     border-radius: 3px;
     
@@ -21,12 +20,11 @@ html{
 #colbg{
     border-style: solid;
     border-radius: 3px;
-}
-*/
+}*/
 
 /* Header */
 .header{
-    background-color: #212529;
+    background-color: #262626;
     border-bottom: 3px solid white;
     max-width: 100%;
 }
@@ -41,15 +39,15 @@ html{
 }
 
 /* Posicionamento da imagem */
-.img-fluid{
+/*.img-fluid{
     padding-top: 100px;
     padding-left: 25px;
-}
+}*/
 
 /* Posicionamento do texto das seções */
 h2.text{
-    padding-top: 83px;
-    padding-left: 100px;
+    padding-top: 15px;
+    padding-left: 15px;
     font-size: 40px;
     font-weight: 700;
     font-style: bold;
@@ -58,7 +56,7 @@ h2.text{
 
 /* Posicionamento do sub texto das seções */
 p.sbtext{
-    padding-left: 100px;
+    padding-left: 20px;
     font-size: 25px;
     color: black;
     word-wrap: break-word;
@@ -101,7 +99,7 @@ h2.text2{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    max-height: 100vh;
+    max-height: 100vh - 350px;
     background-color: rgb(57, 194, 187);
 }
 
