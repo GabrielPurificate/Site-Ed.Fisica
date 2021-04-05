@@ -62,16 +62,10 @@ html{
 /* Seção 4 */
 .section4{
     width: 100%;
-    max-width: 100%;
-}
-
-/* Seção 5 */
-.section5{
-    width: 100%;
     max-height: 100vh - 350px;
 }
 
-#jumbolast{
+#jumbo{
     margin-bottom: 0rem;
 }
 
