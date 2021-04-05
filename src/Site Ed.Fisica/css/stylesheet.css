@@ -43,7 +43,6 @@ html{
     width: 100%;
     min-height: 100vh;
     max-height: 100vh - 350px;
-    background-color: rgb(57, 194, 187);
 }
 
 /* Seção 2 */
@@ -51,7 +50,6 @@ html{
     width: 100%;
     min-height: 100vh;
     max-height: 100vh - 350px;
-    background-color: rgb(57, 194, 187);
 }
 
 /* Seção 3 */
@@ -59,15 +57,12 @@ html{
     width: 100%;
     min-height: 100vh;
     max-height: 100vh - 350px;
-    background-color: rgb(57, 194, 187);
 }
 
 /* Seção 4 */
 .section4{
     width: 100%;
-    min-height: 100vh;
-    max-height: 100vh - 350px;
-    background-color: rgb(57, 194, 187);
+    max-width: 100%;
 }
 
 /* Seção 5 */
@@ -78,12 +73,6 @@ html{
 
 #jumbolast{
     margin-bottom: 0rem;
-}
-
-/* Seção 4 */
-.section4{
-    width: 100%;
-    max-width: 100%;
 }
 
 /* Posicionamento do texto dos footer */
