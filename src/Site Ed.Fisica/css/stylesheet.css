@@ -42,27 +42,27 @@ html{
 .section1{
     width: 100%;
     min-height: 100vh;
-    max-height: 100vh - 350px;
+    max-height: 100vh;
 }
 
 /* Seção 2 */
 .section2{
     width: 100%;
     min-height: 100vh;
-    max-height: 100vh - 350px;
+    max-height: 100vh;
 }
 
 /* Seção 3 */
 .section3{
     width: 100%;
     min-height: 100vh;
-    max-height: 100vh - 350px;
+    max-height: 100vh;
 }
 
 /* Seção 4 */
 .section4{
     width: 100%;
-    max-height: 100vh - 350px;
+    max-height: 100vh;
 }
 
 #jumbo{
