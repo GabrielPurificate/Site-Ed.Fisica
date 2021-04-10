@@ -44,6 +44,7 @@ nav{
     max-height: 100vh - 7vh;
     background-image: url(../imagens/pingpong.jpg);
 }
+
 .overlay{
     top: 0;
     background-color: rgba(0, 0, 0, 0.8);
@@ -55,7 +56,6 @@ nav{
     background-color: blue;
     width: 100%;
     min-height: 100vh;
-    max-height: 100vh;
 }
 
 /* Seção 2 */
@@ -63,7 +63,6 @@ nav{
     background-color: blueviolet;
     width: 100%;
     min-height: 100vh;
-    max-height: 100vh;
 }
 
 /* Seção 3 */
@@ -71,7 +70,6 @@ nav{
     background-color: crimson;
     width: 100%;
     min-height: 100vh;
-    max-height: 100vh;
 }
 
 /* Seção 4 */
@@ -110,17 +108,10 @@ h2.text2{
     max-width: 100%;
 }
 #footertext{
+    padding-top: 20px;
     color: white;
 }
 
-#footertext h5{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-bottom: 0px;
-}
 
 #footertext p{
     font-family: 'Montserrat', sans-serif;
