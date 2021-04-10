@@ -96,12 +96,72 @@ h2.text2{
 #formrow{
     max-width: 100%;
 }
-
+/* BTN START */
 #btnfooter{
     padding-bottom: 15px;
     max-width: 100%;
 }
 
+#socialfooterface{
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    color: #FFF;
+    background-color: #3b5998;
+    outline: none;
+}
+
+#socialfooterface:hover{
+    color: #3b5998;
+    background-color: #FFF;
+    transition: ease-in-out .5s;
+}
+
+#socialfootertwitter{
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    color: #FFF;
+    background-color: #55acee;
+    outline: none;
+}
+
+#socialfootertwitter:hover{
+    color: #55acee;
+    background-color: #FFF;
+    transition: ease-in-out .5s;
+}
+
+#socialfooterinsta{
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    color: #FFF;
+    background-color: #dd2a7b;
+    outline: none;
+}
+
+#socialfooterinsta:hover{
+    color: #dd2a7b;
+    background-color: #FFF;
+    transition: ease-in-out .5s;
+}
+
+#socialfooteryoutube{
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    color: #FFF;
+    background-color: #ed302f;
+    outline: none;
+}
+
+#socialfooteryoutube:hover{
+    color: #ed302f;
+    background-color: #FFF;
+    transition: ease-in-out .5s;
+}
+/* BTN END */
 #rowfooter{
     color: white;
     text-align: center;
@@ -130,4 +190,10 @@ h2.text2{
     font-size: 14px;
     padding-left: 25px;
     padding-bottom: 0px;
+}
+
+#btn-circle{
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
 }
