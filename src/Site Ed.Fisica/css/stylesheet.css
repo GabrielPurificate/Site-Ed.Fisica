@@ -33,22 +33,12 @@ html{
     font-size: 50px;
 }
 
-nav{
-    height: 7vh;
-}
-
 /* Seção Home/Header */
 .sectionhome{
     width: 100%;
-    min-height: 93vh;
-    max-height: 100vh - 7vh;
+    min-height: 91vh;
+    max-height: 100vh - 9vh;
     background-image: url(../imagens/pingpong.jpg);
-}
-
-.overlay{
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    position: absolute;
 }
 
 /* Seção 1 */
@@ -96,9 +86,17 @@ h2.text2{
 #formrow{
     max-width: 100%;
 }
+
 /* BTN START */
+#submitbtn:hover{
+    color: #007BFF;
+    background-color: #FFF;
+    transition: ease-in-out .5s;
+}
+
 #btnfooter{
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
     max-width: 100%;
 }
 
@@ -162,6 +160,7 @@ h2.text2{
     transition: ease-in-out .5s;
 }
 /* BTN END */
+
 #rowfooter{
     color: white;
     text-align: center;
@@ -171,7 +170,6 @@ h2.text2{
     padding-top: 20px;
     color: white;
 }
-
 
 #footertext p{
     font-family: 'Montserrat', sans-serif;
