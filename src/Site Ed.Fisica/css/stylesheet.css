@@ -45,7 +45,9 @@ html{
     width: 100%;
     min-height: 60vh;
     max-height: 60vh;
-    background-image: url(../imagens/screen_2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100%;
 }
 
 /* Seção 1 */
