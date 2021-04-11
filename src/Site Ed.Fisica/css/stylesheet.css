@@ -13,7 +13,7 @@ html{
 
 /* Header */
 .header{
-    background-color: #262626;
+    /*background-color: #262626;*/
     max-width: 100%;
 }
 
@@ -33,12 +33,19 @@ html{
     font-size: 50px;
 }
 
+.header p.type{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
 /* Seção Home/Header */
 .sectionhome{
     width: 100%;
     min-height: 60vh;
     max-height: 60vh;
-    background-image: url(./imagens/screen_2x.jpg);
+    background-image: url(../imagens/screen_2x.jpg);
 }
 
 /* Seção 1 */
