@@ -36,8 +36,8 @@ html{
 /* Seção Home/Header */
 .sectionhome{
     width: 100%;
-    min-height: 91vh;
-    max-height: 100vh - 9vh;
+    min-height: 60vh;
+    max-height: 60vh;
     background-image: url(../imagens/pingpong.jpg);
 }
 
