@@ -60,6 +60,14 @@ html{
     min-height: 100vh - 8.5vh;
 }
 
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Seção 1 */
 .section1{
     background-color: #e9ecef;
