@@ -55,21 +55,16 @@ html{
 /* Seção Home/Header */
 .sectionhome{
     width: 100%;
-    min-height: 92vh;
-    max-width: 100vh - 8vh;
-}
-
-@media (min-width: 576px) {
-    .sectionhome{
-        min-height: 25vh;
-    }
+    height: calc(100vw * (9/16));
+    max-height: 91.5vh;
+    min-height: 100vh - 8.5vh;
 }
 
 /* Seção 1 */
 .section1{
     background-color: #e9ecef;
     width: 100%;
-    min-height: 100vh;
+    max-height: auto;
     position: relative;
     z-index: 2;
 }
@@ -78,7 +73,7 @@ html{
 .section2{
     background-color: #e9ecef;
     width: 100%;
-    min-height: 100vh;
+    max-height: auto;
     position: relative;
     z-index: 2;
 }
@@ -87,7 +82,7 @@ html{
 .section3{
     background-color: #e9ecef;
     width: 100%;
-    min-height: 100vh;
+    max-height: auto;
     position: relative;
     z-index: 2;
 }
