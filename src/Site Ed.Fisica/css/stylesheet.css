@@ -45,7 +45,7 @@ html{
 
 .header p.type{
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: px;
     color: white;
     text-align: center;
     padding: 0;
@@ -56,15 +56,15 @@ html{
 .sectionhome{
     width: 100%;
     height: calc(100vw * (9/16));
-    max-height: 94vh;
-    min-height: 100vh - 6vh;
+    max-height: 100vh;
+    min-height: 100vh
 }
 
 ul{
     list-style-type: none;
 }
 
-ul li{
+ul li{margin-left: 15px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -75,6 +75,7 @@ ul li{
     max-height: auto;
     position: relative;
     z-index: 2;
+    text-align: justify;
 }
 
 /* Seção 2 */
@@ -84,6 +85,11 @@ ul li{
     max-height: auto;
     position: relative;
     z-index: 2;
+    text-align: justify;
+}
+
+#jumbo2{
+    background-color: #262626;
 }
 
 /* Seção 3 */
@@ -93,6 +99,7 @@ ul li{
     max-height: auto;
     position: relative;
     z-index: 2;
+    text-align: justify;
 }
 
 /* Seção 4 */
@@ -123,6 +130,21 @@ h2.text2{
 }
 
 /* BTN START */
+#btnhome{
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    outline: none;
+}
+
+#btnhome:hover{
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    transition: ease-in-out .5s;
+}
+
 #submitbtn:hover{
     color: #007BFF;
     background-color: #FFF;
