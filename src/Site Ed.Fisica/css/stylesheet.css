@@ -56,8 +56,8 @@ html{
 .sectionhome{
     width: 100%;
     height: calc(100vw * (9/16));
-    max-height: 91.5vh;
-    min-height: 100vh - 8.5vh;
+    max-height: 94vh;
+    min-height: 100vh - 6vh;
 }
 
 ul{
