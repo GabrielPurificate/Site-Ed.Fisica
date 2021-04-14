@@ -78,7 +78,7 @@ ul li{margin-left: 15px;
     text-align: justify;
 }
 
-/* Seção 2 */
+/* Seção 2 Begin*/
 .section2{
     background-color: #e9ecef;
     width: 100%;
@@ -91,6 +91,7 @@ ul li{margin-left: 15px;
 #jumbo2{
     background-color: #262626;
 }
+/* Seção 2 End*/
 
 /* Seção 3 */
 .section3{
