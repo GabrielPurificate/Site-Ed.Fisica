@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/stylesheet.css">
 
   <!-- Icone Da Pagina -->
-  <link rel="shortcut icon" href="imagens/raquetedepingpong1.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="imagens/raquetedepingpong1.svg" type="image/x-icon">      
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="./css/bootstrap.css">
@@ -28,19 +28,21 @@
 
 <body style="background-color: #262626;" data-spy="scroll" data-target=".navbar">
 
-  <section class="sectionhome" id="sectionhome">
+  <section class="sectionhome" id="sectionhome" style="background-image: url(./imagens/opaaaaa.jpg);">
 
-    <img src="./imagens/opaaaaa.jpg" alt="Raquetes Header" class="img-fluid" id="imgheader">
+   <!-- <img src="./imagens/opaaaaa.jpg" alt="Raquetes Header" class="img-fluid" id="imgheader">-->
 
     <header class="header">
       <h1 class="title">Tênis de Mesa</h1>
       <div class="headerborder"></div>
       <div class="container">
+        <!--
         <div class="row justify-content-center">
-          <a class="btn" href="#section1" role="button" id="btnhome" style="margin-top: 43%;">
+          <a class="btn" href="#section1" role="button" id="btnhome" style="margin-top: 43%; @media (min-width: 992px)">
             <i class="fas fa-angle-double-down" data-fa-transform="down-4"></i>
           </a>
         </div>
+        -->
       </div>
       <!--<p class="type">O tênis de mesa ou ténis de mesa, ténis-de-mesa, mesatenismo ou ping-pong é um esporte inventado no Reino Unido, mais precisamente na Inglaterra no século XIX onde era conhecido como ping-pong</p>-->
     </header>
@@ -156,22 +158,30 @@
             <div class="col"></div>
             <div class="col-md-10">
               <div class="container">
-                <!--
                 <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
                     <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselIndicators" data-slide-to="2"></li>
                   </ol>
-                  <div class="carousel-inner">
+                  <div class="carousel-inner rounded" style="border: 3px solid rgb(255, 255, 255)">
                     <div class="carousel-item active">
                       <img src="imagens/classica.jpeg" class="d-block w-100" alt="Empunhadura Clássica" style="width: 300px; height: 500px;">
+                      <div class="carousel-caption d-none d-md-block" style="color: #147880;">
+                        <h3>Clássica</h3>
+                      </div>
                     </div>
                     <div class="carousel-item">
                       <img src="./imagens/caneta.png" class="d-block w-100" alt="Empunhadura Caneta" style="width: 300px; height: 500px;">
+                      <div class="carousel-caption d-none d-md-block" style="color: #147880;">
+                        <h3>Caneta</h3>
+                      </div>
                     </div>
                     <div class="carousel-item">
                       <img src="imagens/classineta.jpeg" class="d-block w-100" alt="Empunhadura Classineta" style="width: 300px; height: 500px;">
+                      <div class="carousel-caption d-none d-md-block" style="color: #147880;">
+                        <h3>Classineta</h3>
+                      </div>
                     </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
@@ -183,7 +193,6 @@
                     <span class="sr-only">Next</span>
                   </a>
                 </div>
-                -->
               </div>
             </div>
             <div class="col"></div>
@@ -300,7 +309,7 @@
                     <i class="fab fa-instagram" data-fa-transform="grow-5 down-3"></i>
                   </a>
 
-                  <a class="btn" href="https://www.youtube.com/channel/UCi8q-rtQUiBJrAgfGAiDnxA" target="_blank"
+                  <a class="btn" href="https://www.youtube.com/watch?v=5owi2xUpeoU" target="_blank"
                     role="button" id="socialfooteryoutube">
                     <i class="fab fa-youtube" data-fa-transform="grow-4 down-3"></i>
                   </a>
