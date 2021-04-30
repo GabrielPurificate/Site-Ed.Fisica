@@ -6,7 +6,20 @@
     padding: 0;
     margin: 0;
 }
-
+p{
+    font-family: 'Roboto', sans-serif;
+}
+#containertext{
+    background-color: #262626;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #484848;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+.jumbotron{
+    margin-bottom: 0;
+}
 /*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
 @media (min-width: 576px) {}
 
@@ -26,24 +39,32 @@ html{
 }
 
 @media (min-width: 992px){
-/* Header */
-.header{
-    /*background-color: #262626;*/
-    max-width: 100%;
-    position: relative;
-    z-index: 2;
-    background-image: center center;
+
+#link{
+    color: #6c757d;
+}
+#link:visited{
+    color: #6c757d;
+}
+#link:hover{
+    transition: ease-in-out 0.5s;
+    color: #007bff;
 }
 
+#navb{
+    background-color: rgba(38, 38, 38, 0.8);
 }
 
-@media (min-width: 992px){
-#imgheader{
-    position: absolute;
-    z-index: 1;
-    width: 100%;
+#navbarTogglerDemo02 ul:hover li{
+    opacity: .2;
+    filter: blur(1px);
+    transition: ease-in-out .7s;
 }
-
+  
+#navbarTogglerDemo02 ul li:hover{
+    opacity: 1;
+    filter:blur(0px);
+    transition: ease-in-out .7s;
 }
 
 .headerborder{
@@ -71,22 +92,11 @@ html{
     margin: 0;
 }
 
-@media (min-width: 992px) {
 /* Seção Home/Header */
-    .sectionhome{
-        width: 100%;
-        height: calc(100vw * (9/16));
-        max-height: 100vh;
-        min-height: 100vh
-    }
-}
 
-ul{
-    list-style-type: none;
-}
-
-ul li{margin-left: 15px;
-    font-family: 'Montserrat', sans-serif;
+.sectionhome{
+    min-height: 70vh;
+    background-color: rgba(86,61,124,.15);
 }
 
 /* Seção 1 */
@@ -109,9 +119,6 @@ ul li{margin-left: 15px;
     text-align: justify;
 }
 
-#jumbo2{
-    background-color: #262626;
-}
 /* Seção 2 End*/
 
 /* Seção 3 */
@@ -137,6 +144,10 @@ ul li{margin-left: 15px;
     max-height: 100vh;
     position: relative;
     z-index: 3;
+}
+
+#jumbo2{
+    background-color: #262626;
 }
 
 #jumbo{
