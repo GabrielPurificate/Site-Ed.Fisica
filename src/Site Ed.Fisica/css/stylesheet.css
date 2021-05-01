@@ -1,289 +1,291 @@
  /* Importação de fontes */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-}
-p{
-    font-family: 'Roboto', sans-serif;
-}
-#containertext{
+ p {
+     font-family: 'Roboto', sans-serif;
+ }
+
+ #containertext {
     background-color: #262626;
     color: white;
     border-radius: 10px;
-    box-shadow: 10px 5px 5px #484848;
-    margin-top: 1vw;
-    margin-left: 1vw;
-}
-.jumbotron{
-    margin-bottom: 0;
-}
-/*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
-@media (min-width: 576px) {}
+    box-shadow: 5px 2px 5px #484848; 
+ }
 
-/*Dispositivos médios (tablets com 768px ou mais)*/
-@media (min-width: 768px) {}
+ .jumbotron {
+     margin-bottom: 0;
+ }
 
-/*Dispositivos large (desktops com 992px ou mais)*/
-@media (min-width: 992px) {}
+ p.lead {
+     font-size: 17px;
+ }
 
-/*Dispositivos extra large (desktops grandes com 1200px ou mais)*/
-@media (min-width: 1200px) {}
+ /*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+ @media (min-width: 576px) {}
 
-html{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-    overflow-wrap: break-word;
-}
+ /*Dispositivos médios (tablets com 768px ou mais)*/
+ @media (min-width: 768px) {}
 
-@media (min-width: 992px){
+ /*Dispositivos large (desktops com 992px ou mais)*/
+ @media (min-width: 992px) {}
 
-#link{
-    color: #6c757d;
-}
-#link:visited{
-    color: #6c757d;
-}
-#link:hover{
-    transition: ease-in-out 0.5s;
-    color: #007bff;
-}
+ /*Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+ @media (min-width: 1200px) {}
 
-#navb{
-    background-color: rgba(38, 38, 38, 0.8);
-}
+ html {
+     scroll-behavior: smooth;
+     overflow-x: hidden;
+     overflow-wrap: break-word;
+ }
 
-#navbarTogglerDemo02 ul:hover li{
-    opacity: .2;
-    filter: blur(1px);
-    transition: ease-in-out .7s;
-}
-  
-#navbarTogglerDemo02 ul li:hover{
-    opacity: 1;
-    filter:blur(0px);
-    transition: ease-in-out .7s;
-}
+ #link {
+     color: #6c757d;
+ }
 
-.headerborder{
-    width: 90%;
-    background-color: white;
-    height: 1px;
-    margin-left: 5%;
-}
+ #link:visited {
+     color: #6c757d;
+ }
 
-/* Texto do Header */
-.header h1.title{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    font-size: 50px;
-}
+ #link:hover {
+     transition: ease-in-out 0.5s;
+     color: #007bff;
+ }
 
-.header p.type{
-    font-family: 'Montserrat', sans-serif;
-    font-size: px;
-    color: white;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
+ #navb {
+     background-color: rgba(38, 38, 38, 0.8);
+ }
 
-/* Seção Home/Header */
+ #navbarTogglerDemo02 ul:hover li {
+     opacity: .2;
+     filter: blur(1px);
+     transition: ease-in-out .7s;
+ }
 
-.sectionhome{
-    min-height: 70vh;
-    background-color: rgba(86,61,124,.15);
-}
+ #navbarTogglerDemo02 ul li:hover {
+     opacity: 1;
+     filter: blur(0px);
+     transition: ease-in-out .7s;
+ }
 
-/* Seção 1 */
-.section1{
-    background-color: #e9ecef;
-    width: 100%;
-    max-height: auto;
-    position: relative;
-    z-index: 2;
-    text-align: justify;
-}
+ .headerborder {
+     width: 90%;
+     background-color: white;
+     height: 1px;
+     margin-left: 5%;
+ }
 
-/* Seção 2 Begin*/
-.section2{
-    background-color: #e9ecef;
-    width: 100%;
-    max-height: auto;
-    position: relative;
-    z-index: 2;
-    text-align: justify;
-}
+ /* Texto do Header */
+ .header h1.title {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: bold;
+     text-align: center;
+     color: white;
+     font-size: 50px;
+ }
 
-/* Seção 2 End*/
+ .header p.type {
+     font-family: 'Montserrat', sans-serif;
+     font-size: px;
+     color: white;
+     text-align: center;
+     padding: 0;
+     margin: 0;
+ }
 
-/* Seção 3 */
-.section3{
-    background-color: #e9ecef;
-    width: 100%;
-    max-height: auto;
-    position: relative;
-    z-index: 2;
-    text-align: justify;
-}
+ /* Seção Home/Header */
 
-/* Seção 4 */
-.section4{
-    width: 100%;
-    position: relative;
-    z-index: 2;
-}
+ .sectionhome {
+     min-height: 70vh;
+     background-color: rgba(86, 61, 124, .15);
+ }
 
-/* Seção 5 */
-.section5{
-    width: 100%;
-    max-height: 100vh;
-    position: relative;
-    z-index: 3;
-}
+ /* Seção 1 */
+ .section1 {
+     background-color: #e9ecef;
+     width: 100%;
+     max-height: auto;
+     position: relative;
+     z-index: 2;
+     text-align: justify;
+ }
 
-#jumbo2{
-    background-color: #262626;
-}
+ /* Seção 2 Begin*/
+ .section2 {
+     background-color: #e9ecef;
+     width: 100%;
+     max-height: auto;
+     position: relative;
+     z-index: 2;
+ }
 
-#jumbo{
-    margin-bottom: 0rem;
-}
+ /* Seção 2 End*/
 
-/* Posicionamento do texto dos footer */
-h2.text2{
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size: 18px;
-    font-weight: 700;
-    font-style: bold;
-    color: white;
-}
+ /* Seção 3 */
+ .section3 {
+     background-color: #e9ecef;
+     width: 100%;
+     max-height: auto;
+     position: relative;
+     z-index: 2;
+     text-align: justify;
+ }
 
-/* Rodapé */
-#formrow{
-    max-width: 100%;
-}
+ /* Seção 4 */
+ .section4 {
+     width: 100%;
+     position: relative;
+     z-index: 2;
+ }
 
-/* BTN START */
+ /* Seção 5 */
+ .section5 {
+     width: 100%;
+     max-height: 100vh;
+     position: relative;
+     z-index: 3;
+ }
 
-#btnhome{
-    width: 45px;
-    height: 45px;
-    border-radius: 45px;
-    color: rgb(255, 255, 255);
-    background-color: #000000;
-    outline: none;
-}
+ #jumbo2 {
+     background-color: #262626;
+ }
 
-#btnhome:hover{
-    color: #000000;
-    background-color: rgb(255, 255, 255);
-    transition: ease-in-out .5s;
-}
+ #jumbo {
+     margin-bottom: 0rem;
+ }
 
-#submitbtn:hover{
-    color: #007BFF;
-    background-color: #FFF;
-    transition: ease-in-out .5s;
-}
+ /* Posicionamento do texto dos footer */
+ h2.text2 {
+     padding-top: 10px;
+     padding-left: 10px;
+     font-size: 18px;
+     font-weight: 700;
+     font-style: bold;
+     color: white;
+ }
 
-#btnfooter{
-    padding-bottom: 10px;
-    padding-top: 5px;
-    max-width: 100%;
-}
+ /* Rodapé */
+ #formrow {
+     max-width: 100%;
+ }
 
-#socialfooterface{
-    width: 45px;
-    height: 45px;
-    border-radius: 45px;
-    color: #FFF;
-    background-color: #3b5998;
-    outline: none;
-}
+ /* BTN START */
 
-#socialfooterface:hover{
-    color: #3b5998;
-    background-color: #FFF;
-    transition: ease-in-out .5s;
-}
+ #btnhome {
+     width: 45px;
+     height: 45px;
+     border-radius: 45px;
+     color: rgb(255, 255, 255);
+     background-color: #000000;
+     outline: none;
+ }
 
-#socialfootertwitter{
-    width: 45px;
-    height: 45px;
-    border-radius: 45px;
-    color: #FFF;
-    background-color: #55acee;
-    outline: none;
-}
+ #btnhome:hover {
+     color: #000000;
+     background-color: rgb(255, 255, 255);
+     transition: ease-in-out .5s;
+ }
 
-#socialfootertwitter:hover{
-    color: #55acee;
-    background-color: #FFF;
-    transition: ease-in-out .5s;
-}
+ #submitbtn:hover {
+     color: #007BFF;
+     background-color: #FFF;
+     transition: ease-in-out .5s;
+ }
 
-#socialfooterinsta{
-    width: 45px;
-    height: 45px;
-    border-radius: 45px;
-    color: #FFF;
-    background-color: #dd2a7b;
-    outline: none;
-}
+ #btnfooter {
+     padding-bottom: 10px;
+     padding-top: 5px;
+     max-width: 100%;
+ }
 
-#socialfooterinsta:hover{
-    color: #dd2a7b;
-    background-color: #FFF;
-    transition: ease-in-out .5s;
-}
+ #socialfooterface {
+     width: 45px;
+     height: 45px;
+     border-radius: 45px;
+     color: #FFF;
+     background-color: #3b5998;
+     outline: none;
+ }
 
-#socialfooteryoutube{
-    width: 45px;
-    height: 45px;
-    border-radius: 45px;
-    color: #FFF;
-    background-color: #ed302f;
-    outline: none;
-}
+ #socialfooterface:hover {
+     color: #3b5998;
+     background-color: #FFF;
+     transition: ease-in-out .5s;
+ }
 
-#socialfooteryoutube:hover{
-    color: #ed302f;
-    background-color: #FFF;
-    transition: ease-in-out .5s;
-}
-/* BTN END */
+ #socialfootertwitter {
+     width: 45px;
+     height: 45px;
+     border-radius: 45px;
+     color: #FFF;
+     background-color: #55acee;
+     outline: none;
+ }
 
-#rowfooter{
-    color: white;
-    text-align: center;
-    max-width: 100%;
-}
-#footertext{
-    padding-top: 20px;
-    color: white;
-}
+ #socialfootertwitter:hover {
+     color: #55acee;
+     background-color: #FFF;
+     transition: ease-in-out .5s;
+ }
 
-#footertext p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    padding-left: 15px;
-    padding-bottom: 0px;
-}
+ #socialfooterinsta {
+     width: 45px;
+     height: 45px;
+     border-radius: 45px;
+     color: #FFF;
+     background-color: #dd2a7b;
+     outline: none;
+ }
 
-#footertext ul{
-    list-style-type: none;
-}
+ #socialfooterinsta:hover {
+     color: #dd2a7b;
+     background-color: #FFF;
+     transition: ease-in-out .5s;
+ }
 
-#footertext ul li{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    padding-left: 25px;
-    padding-bottom: 0px;
-}
+ #socialfooteryoutube {
+     width: 45px;
+     height: 45px;
+     border-radius: 45px;
+     color: #FFF;
+     background-color: #ed302f;
+     outline: none;
+ }
+
+ #socialfooteryoutube:hover {
+     color: #ed302f;
+     background-color: #FFF;
+     transition: ease-in-out .5s;
+ }
+
+ /* BTN END */
+
+ #rowfooter {
+     color: white;
+     text-align: center;
+     max-width: 100%;
+ }
+
+ #footertext {
+     padding-top: 20px;
+     color: white;
+ }
+
+ #footertext p {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 13px;
+     font-weight: 400;
+     padding-left: 15px;
+     padding-bottom: 0px;
+ }
+
+ #footertext ul {
+     list-style-type: none;
+ }
+
+ #footertext ul li {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 14px;
+     padding-left: 25px;
+     padding-bottom: 0px;
+ }
