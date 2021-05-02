@@ -37,6 +37,10 @@
      margin-bottom: 1vh;
  }
 
+ #imghistoria{
+    margin-top: 3vh;
+ }
+
  /*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
  @media (min-width: 576px) {}
 
