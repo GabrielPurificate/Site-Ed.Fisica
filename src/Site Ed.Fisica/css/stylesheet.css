@@ -14,13 +14,27 @@
     box-shadow: 5px 2px 5px #484848; 
  }
 
+ #containertext2 {
+    background-color: #e9ecef;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 5px 2px 5px #484848; 
+ }
+
  .jumbotron {
      margin-bottom: 0;
  }
 
+.display-4{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10vh;
+}
+
  p.lead {
+    font-family: 'Roboto', sans-serif;
      font-size: 17px;
-     text-align: justify;
+     text-align: left;
+     margin-bottom: 1vh;
  }
 
  /*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
@@ -55,21 +69,23 @@
  }
 
  #navb {
-     background-color: rgba(38, 38, 38, 0.8);
-     -webkit-backdrop-filter: blur(8px);
-     backdrop-filter: blur(8px);      
+    background-color: rgba(38, 38, 38, 0.8);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    position: fixed;
+    width: 100%;
  }
 
  #navbarTogglerDemo02 ul:hover li {
      opacity: .2;
      filter: blur(1px);
-     transition: ease-in-out .7s;
+     transition: ease-in-out .3s;
  }
 
  #navbarTogglerDemo02 ul li:hover {
      opacity: 1;
      filter: blur(0px);
-     transition: ease-in-out .7s;
+     transition: ease-in-out .3s;
  }
 
  .headerborder {
@@ -79,26 +95,7 @@
      margin-left: 5%;
  }
 
- /* Texto do Header */
- .header h1.title {
-     font-family: 'Open Sans', sans-serif;
-     font-weight: bold;
-     text-align: center;
-     color: white;
-     font-size: 50px;
- }
-
- .header p.type {
-     font-family: 'Montserrat', sans-serif;
-     font-size: px;
-     color: white;
-     text-align: center;
-     padding: 0;
-     margin: 0;
- }
-
  /* Seção Home/Header */
-
  .sectionhome {
      min-height: 70vh;
      background-color: rgba(86, 61, 124, .15);
@@ -106,12 +103,16 @@
 
  /* Seção 1 */
  .section1 {
-     background-color: #e9ecef;
+     background-color: #262626;
+     color: rgb(255, 255, 255);
      width: 100%;
      max-height: auto;
      position: relative;
      z-index: 2;
-     text-align: justify;
+ }
+
+ .section1 h2{
+     color: black;
  }
 
  /* Seção 2 Begin*/
@@ -127,19 +128,21 @@
 
  /* Seção 3 */
  .section3 {
-     background-color: #e9ecef;
-     width: 100%;
-     max-height: auto;
-     position: relative;
-     z-index: 2;
-     text-align: justify;
+    background-color: #262626;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    max-height: auto;
+    position: relative;
+    z-index: 2;
  }
 
  /* Seção 4 */
  .section4 {
-     width: 100%;
-     position: relative;
-     z-index: 2;
+    background-color: #e9ecef;
+    width: 100%;
+    max-height: auto;
+    position: relative;
+    z-index: 2;
  }
 
  /* Seção 5 */
