@@ -157,6 +157,11 @@
      z-index: 3;
  }
 
+ .last{
+    flex-direction: column;
+    align-items: center;
+ }
+
  #jumbo2 {
      background-color: #262626;
  }
